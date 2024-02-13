@@ -1,0 +1,887 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body,html {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    height: 100%;
+
+    width: 100%;
+}
+
+#homepage {
+    width: 100%;
+    height: 100%;
+    background-color: #FBF2F2;
+}
+
+#nav {
+    width: 100%;
+    height: 100px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    color: #765054;
+
+}
+
+#leftnav {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#rightnav {
+
+    width: 40%;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding: 20px;
+    margin-left: 250px;
+    margin-right: 0px;
+
+}
+
+#centerlogo {
+    width: 20%;
+    margin-left: 50px;
+}
+
+#centerlogo h1 {
+    font-family: Montserrat Medium;
+    font-size: 20px;
+}
+
+#kouca {
+    margin-left: 63px;
+}
+
+#premium {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#nav h2 {
+    font-family: Montserrat Medium;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#homemain {
+    height: calc(100% + 50px);
+    width: 100%;
+    display: flex;
+    background-color: #FBF2F2;
+}
+
+#homeleft {
+    width: 35%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#natur {
+    margin-left: 70px;
+    position: absolute;
+    margin-bottom: 190px;
+}
+
+#natur h1 {
+    font-size: 45px;
+    font-family: Ogg;
+    color: #765054;
+
+}
+
+#sourced {
+    position: absolute;
+    margin-left: 255px;
+    margin-bottom: 190px;
+}
+
+#sourced h1 {
+    font-size: 45px;
+    font-family: Ogg;
+    color: #765054;
+}
+
+#ingridient {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 70px;
+    margin-bottom: 190px;
+}
+
+#ingridient h1 {
+    font-size: 45px;
+    font-family: Ogg;
+    color: #765054;
+}
+
+#para {
+    margin-top: 365px;
+    position: absolute;
+    margin-left: 70px;
+    margin-bottom: 190px;
+}
+
+#para p {
+    font-size: 18px;
+    font-family: Montserrat Medium;
+    color: #765054;
+    font-weight: 500;
+}
+
+#shop {
+    margin-top: 35.3vw;
+    position: absolute;
+    margin-left: 70px
+}
+
+#shop hr {
+    margin-top: 10px;
+}
+
+
+#homecenter {
+    width: 30%;
+    height: 86%;
+
+    border-top-right-radius: 280px;
+    border-top-left-radius: 250px;
+    margin-top: 50px;
+    background-image: url(https://i.pinimg.com/originals/22/46/27/224627f9b1d5c44b86e70be16d451168.png);
+    background-position: right;
+    background-size: cover;
+}
+
+
+
+#homecenter h1 {
+
+    font-family: Montserrat Medium;
+    text-transform: uppercase;
+
+}
+
+#homeright {
+    width: 35%;
+    height: 100%;
+
+}
+
+#pararight {
+    margin-left: 150px;
+    margin-top: 365px;
+    position: absolute;
+    margin-bottom: 190px;
+}
+
+#pararight p {
+    font-size: 18px;
+    font-family: Montserrat Medium;
+    color: #765054;
+    font-weight: 500;
+}
+
+#secondhomepage {
+    width: 100%;
+    height: calc(100% + 100px);
+
+}
+
+#besttext {
+    width: 100%;
+    margin-top: 170px;
+
+}
+
+#besttext h2 {
+    font-size: 30px;
+    text-align: center;
+    font-family: Montserrat Medium;
+    font-weight: 500;
+    color: #765054;
+    letter-spacing: 0.2px;
+}
+
+#premiumtext {
+    width: 100%;
+    margin-top: 80px;
+
+}
+
+#premiumtext h1 {
+    font-size: 50px;
+    font-family: Ogg;
+    font-weight: 600;
+    text-align: center;
+    color: #765054;
+}
+
+#premiumtext p {
+    font-size: 18px;
+    font-family: Montserrat Medium;
+    color: #765054;
+    text-align: center;
+    font-weight: 500;
+
+}
+
+#productdiv {
+    width: 100%;
+
+    display: flex;
+    gap: 10px;
+    /* margin-left: 55px; */
+    padding-left: 78px;
+    margin-top: 80px;
+
+}
+
+#product1{
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/db01a1112093241.600e8216cd98c.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#product2{
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/247939105791799.5f80b42db811e.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#product3{
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/2c70b8112093241.600e8216cfac3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#product4{
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/247939105791799.5f80b42db811e.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.products {
+    width: 330px;
+    height: 25vw;
+    background-color: #FBF2F2;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    display: inline - block;
+}
+
+#secondhomepage hr {
+    width: 2%;
+    margin-top: 25px;
+    margin-left: 50%;
+    border-top: 10px dotted #765054;
+    height: 3px;
+
+
+}
+
+#thirdhomepage {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #FBF2F2;
+}
+
+#leftthird{
+    width: 34%;
+    height: 100%;
+   
+   
+
+}
+#box{
+    margin-top: 60%;
+    margin-left: 70px;
+    width: 250px;
+    height: 350px;
+    background-color: red;
+    background: url(https://i.pinimg.com/originals/77/36/30/77363011e1add00643973c75101ca59a.jpg);
+background-position: center;
+background-size: cover;
+border-bottom-left-radius: 50%;
+border-top-right-radius: 50%;
+    
+
+}
+
+/* #curve{
+    display: flex;
+    margin-top: 75%;
+    width: 200px;
+    height: 250px;
+    border-radius: 40%;
+    background-color: burlywood;
+    
+} */
+#centerthird{
+    width: 33%;
+    height: 100%;
+   
+
+}
+
+#centerthird h2{
+    font-size: 1.5vw;
+   margin-left: 35%;
+    font-family:Montserrat Medium ;
+    font-weight: 500;
+    letter-spacing: .7;
+    color: #765054;
+                        
+    margin-top: 10%;
+}
+#centerthird #centerh1 h1{
+    font-size: 2.6vw;
+    font-family: Montserrat Medium ;
+    padding: .5vw;
+    color: #765054;
+    font-weight: 200;
+    letter-spacing: .3px;
+   
+
+}
+
+#centerthird #centerh1{
+    padding: 5vw 3vw;
+}
+
+#centerthird .Toner{
+    padding: 2.5vw;
+
+   margin-left: 100px;
+   
+
+}
+#centerthird #centerh1 .Lip{
+    
+    margin-left: 84px;
+}
+#centerthird #centerh1 .Repair{
+    
+    margin-left:40px ;
+
+}
+#centerthird #centerh1 .Toner1{
+    
+    margin-left:122px ;
+}
+
+#centerthird a{
+    font-size: 1.5vw;
+    font-weight: 500;
+    font-family:Montserrat Medium  ;
+    color: #765054;
+   text-decoration: none;                                   
+    margin-top: 20%;
+    margin-left: 20%;
+
+}
+#centerthird hr{
+    width: 70%;
+    height: 1px;
+    margin-top: 10px;
+    background-color: #765054;
+    border: none;
+    margin-left: 100px;
+  
+}
+
+#rightthird{
+    width: 34%;
+    height: 100%;
+   
+}
+
+#rightthird #blankbox{
+    width: 370px;
+    height: 500px;
+
+margin-top: 50px;
+margin-left:105px ;
+border-top-right-radius: 50%;
+border-top-left-radius: 50%;
+background: url(https://i.pinimg.com/originals/77/36/30/77363011e1add00643973c75101ca59a.jpg);
+background-position: center;
+background-size: cover;
+}
+
+#fourthpage{
+width: 100%;
+height: 100%;
+display: flex;
+position: relative;
+/* background-color: yellowgreen ; */
+}
+
+#fourthpage #fourthleft{
+    width: 60%;
+    height: 100%;
+    background-color: #765054;
+}
+
+#fourthpage #fourthleft .firsth1{
+    margin-left: 9vw;
+    margin-top: 6vw;
+    color:white;
+}
+#fourthpage #fourthleft .firsth1 h1{
+    font-size: 3.7vw;
+    text-transform: uppercase;
+    font-family: Ogg;
+    font-weight: 100;
+}
+
+#fourthpage #fourthleft h3{
+    font-size: 1.1vw;
+    font-weight: 200;
+    text-align: center;
+    color: white;
+    font-family: Montserrat Medium;
+    padding-top: 2vw;
+    
+    
+}
+
+#fourthpage #fourthleft .text2h3{
+    margin-top: 7.8vw;
+}
+
+#fourthpage #fourthleft h2.texth2{
+    color: white;
+    font-size: 2.4vw;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 2.9vw;
+}
+#fourthpage #fourthleft a{
+    font-size: 1.5vw;
+    font-weight: 500;
+    font-family:Montserrat Medium  ;
+    color: white;
+   text-decoration: none;                                   
+    
+}
+#fourthpage #fourthleft .atag{
+    position: absolute;
+    margin-top: 5vw;
+    margin-left: 24vw;
+    display: flex;
+    
+    justify-content: space-between;
+    /* text-align: center; */
+}
+#fourthpage #fourthleft hr{
+    width: 17%;
+    margin-top: 7.3vw;
+    margin-left: 22vw;
+    position: absolute;
+}
+
+#fourthpage #fourthright{
+
+     width: 40%;
+     height: 100%;
+     /* background-color: red; */
+     background-image: url(https://www.cosmeticsdesign-asia.com/var/wrbm_gb_food_pharma/storage/images/publications/cosmetics/cosmeticsdesign-asia.com/headlines/brand-innovation/korean-start-up-kuoca-aims-to-lead-the-market-with-novel-made-to-order-concept/12716639-1-eng-GB/Korean-start-up-Kuoca-aims-to-lead-the-market-with-novel-made-to-order-concept.png);
+     background-size: cover;
+     background-position: center;
+}
+#fiftpage{
+    width: 100%;
+    height: 100%;
+    background-color:#FBF2F2;
+    display: flex;
+}
+#fiftpage #fifthleft{
+    width: 34%;
+    height: 100%;
+ 
+}
+#fiftpage #fifthleft .stay{
+    margin-top: 23vw;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    
+}
+#fiftpage #fifthleft h1{
+    color: #765054;
+    font-family: Ogg;
+    font-size: 2.5vw;
+    font-weight:600;
+}
+#fiftpage #fifthleft .firstpara{
+    margin-left: 70px;
+
+}
+#fiftpage #fifthleft p{
+    color: #765054;
+    font-size: 1vw;
+    font-weight: 500;
+    font-family: Montserrat Medium ;
+    word-spacing: .5;
+
+}
+#fiftpage #fifthleft .atag5{
+    margin-left: 70px;
+    position: absolute;
+    margin-top: 100px;
+
+}
+#fiftpage #fifthleft a.atag5{
+    color:#765054;
+    font-size: 1.3vw;
+    font-weight: 500;
+    text-decoration: none;
+}
+#fiftpage #fifthleft hr{
+    
+    margin-top: 130px;
+    width: 25%;
+    color: #765054;
+    margin-left: 70px;
+
+}
+#fiftpage #fifthcenter{
+    width: 32%;
+    height: 100%;
+    
+}
+#fiftpage #fifthcenter #circleh1{
+    width: 130px;
+    height: 130px;
+    border-radius: 50% ;
+    border: .01px solid #765054;
+    margin-left: 11.3vw;
+    
+}
+#fiftpage #fifthcenter #circleh1 h1{
+    font-size: 2.3vw;
+    color: #765054;
+    align-items: center;
+    padding: 2.7vw 2vw;
+}
+#fiftpage #fifthcenter .tonerblend {
+    font-size: 3vw;
+    color: #765054;
+    font-weight: 100;
+    font-family: Ogg;
+    margin-left: 1.4vw;
+    align-items: center;
+}
+#fiftpage #fifthcenter h2{
+    color:#765054;
+    font-size: 1.1vw;
+    font-family: Montserrat Medium;
+    font-weight: 500;
+    text-align: center;
+}
+#fiftpage #fifthcenter #fiftcurvediv{
+    width: 25vw;
+    height: 27vw;
+    margin-left: 3.5vw;
+    border-top-right-radius: 280px;
+    border-top-left-radius: 250px;
+    margin-top: 50px;
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKY-MbdmGderKdQ9gIf07P_z2-XkWhqDIEgA&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+}
+#fiftpage #fifthright{
+    width: 34%;
+    height: 100%;
+  
+}
+
+#fiftpage #fifthright #secondpara{
+    margin-left: 135px;
+    margin-top: 430px;
+    color: #765054;
+    font-size: 1vw;
+    font-weight: 500;
+    font-family: Montserrat Medium ;
+    word-spacing: .5;
+    
+}
+#sixthpage{
+    width: 100%;
+    height: 100%;
+    
+}
+#sixthpage h1{
+    text-align: center;
+    color: #765054;
+    font-family: Ogg;
+    font-size: 2.5vw;
+    font-weight: 600;
+    padding-top: 5vw;
+}
+#sixthpage h2{
+    text-align: center;
+    color: #765054;
+    font-family: Montserrat Medium ;
+    font-size: 1.2vw;
+    font-weight: 600;
+           
+}
+#sixthpage #sixthbox{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 7vw;
+    margin-top: 3vw;
+}
+#sixthpage #sixthbox #box6{
+    width: 250px;
+    height: 300px;
+    background-color: red;
+}
+
+#sixthpage #sixthbox  .box1{
+     
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/db01a1112093241.600e8216cd98c.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#sixthpage #sixthbox  .box3{
+    background-image: url(https://i.pinimg.com/originals/22/46/27/224627f9b1d5c44b86e70be16d451168.png);
+    background-position: center;
+    background-size: cover;
+}
+#sixthpage #sixthbox  .box2{
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/2c70b8112093241.600e8216cfac3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#sixthpage #sixthbox  .box4{
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/247939105791799.5f80b42db811e.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#footerpage{
+    width: 100%;
+    height: 50%;
+    background-color: #765054;
+}
+#footerpage #kuocalogo img{
+    width: 150px;
+    height: 150px;
+    margin-left: 70px;
+    position: absolute;
+    filter: sepia(100%);
+}
+#footerpage #kuocalogo h3{
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 120px;
+    font-size: 1vw;
+    font-weight: 500;
+    color: #FBF2F2;
+    font-family: Ogg;
+}
+#footerpage #kuocalogo h4{
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 95px;
+    font-weight: 500;
+    font-size: 1vw;
+    color: #FBF2F2;
+    font-family: Ogg;
+}
+
+#footerpage #mainfooter{
+    display: flex;
+   
+    padding-top: 6.5vw;
+    padding-left: 26vw;
+}
+#footerpage #mainfooter h1{
+    font-size: 1.1vw;
+    padding-bottom: 1.2vw;
+    font-family: Montserrat Medium;
+    text-transform: uppercase;
+    color: #FBF2F2;
+    font-weight: 300;
+}
+#footerpage #mainfooter a{
+    color:#FBF2F2;
+    font-family: Montserrat Medium;
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: .5vw;
+    font-size: 1vw;
+
+}
+
+#footerpage #mainfooter #social ul li {
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 12px;
+    padding: 3px 4px;
+}
+#footerpage #mainfooter #social{
+   
+    position: absolute;
+    padding-left: 25.4vw;
+
+}
+#footerpage #mainfooter #assistance{
+    position: absolute;
+    padding-left: 11.3vw;
+}
+#footerpage #mainfooter #assistance ul li {
+    display: inline-block;
+    width: 32.7%;
+    margin-bottom: 12px;
+}
+#footerpage #mainfooter #navigate ul li {
+    display: inline-block;
+    width: 5%;
+    margin-bottom: 12px;
+}
+
+@media (max-width:600px){
+    #homepage {
+        width: 100%;
+        height: 100vh;
+        background-color: #FBF2F2;
+        
+        
+    }
+    
+#nav {
+    width: 100%;
+    height: 100px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    color: #765054;
+
+}
+#leftnav {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#rightnav {
+
+    width: 40%;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding: 20px;
+    margin-left: 250px;
+    margin-right: 0px;
+
+}
+
+#centerlogo {
+    width: 20%;
+    margin-left: 50px;
+}
+
+#centerlogo h1 {
+    font-family: Montserrat Medium;
+    font-size: 20px;
+}
+
+#kouca {
+    margin-left: 63px;
+}
+
+#premium {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#nav h2 {
+    font-family: Montserrat Medium;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+#homemain {
+    /* height: calc(100% + 50px); */
+    /* height: 100vh; */
+    width: 100%;
+    display: flex;
+    position: relative;
+    background-color: #FBF2F2;
+}
+
+#homecenter {
+    width: 100%;
+    height: 70%;
+
+    border-top-right-radius: 280px;
+    border-top-left-radius: 250px;
+    margin-top: 50px;
+    background-image: url(https://i.pinimg.com/originals/22/46/27/224627f9b1d5c44b86e70be16d451168.png);
+    background-position: right;
+    background-size: cover;
+}
+
+#homeleft {
+    width: 35%;
+    height: 100%;
+    margin-top: 70%;
+    /* position: absol%ute; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#ingridient {
+    /* display: flex; */
+    /* position: absolute; */
+   margin-left: 29%;
+   align-items: center;
+
+}
+#para {
+    /* margin-bottom: 1%
+    ; */
+    padding-bottom: 100px;
+}
+
+
+}
+
+
